@@ -7,5 +7,9 @@ public class Lab006 {
         double result =a%b;
         System.out.println(result);
 
+        int num =38;
+        int remainder = num%2;
+        System.out.println(remainder);
+
     }
 }
