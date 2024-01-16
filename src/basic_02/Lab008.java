@@ -5,5 +5,6 @@ public class Lab008 {
         byte a=10;
         byte b=18;
         System.out.println(a+b);
+        //result of byte + byte will bw int.
     }
 }
