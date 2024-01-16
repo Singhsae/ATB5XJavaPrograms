@@ -9,5 +9,8 @@ public class Lab004 {
         System.out.println(c1);
         char c2='\n';
         System.out.println(c2);
+        char c3 ='\u0000';
+        System.out.println(c3);
+
     }
 }
