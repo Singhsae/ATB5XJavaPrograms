@@ -7,11 +7,11 @@ public class Lab0024 {
         Scanner sc =new Scanner(System.in);
         System.out.println("enter number");
         int a=sc.nextInt();
-        if(a%2 ==0){
-            System.out.println("even");
+        if(a%2 ==1){
+            System.out.println("odd");
         }
         else {
-            System.out.println("Odd");
+            System.out.println("even");
         }
     }
 
