@@ -10,7 +10,7 @@ public class Lab0025 {
         int a =sc.nextInt();
         int b= sc.nextInt();
 
-        if (a>b){
+        if (a<b){
             System.out.println("Max" +a);
 
         }
