@@ -7,14 +7,31 @@ public class Lab0047 {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the value");
         int n= sc.nextInt();
-        int i=1;
+        int i=0;
+        int flag=0;
+        int m=0;
+        m=n/2;
+
       //  for(int i=1;i<n;i++){
-            if((n%i==0)&&(n%n==0)){
-                System.out.println("Not a prime");
+            if((n==0)||(n==1)){
+                System.out.println("Not a prime"+n);
             }
             else {
-                System.out.println("Prime");
+                for(i=2;i<=m;i++){
+                    if(n%i==0){
+                        System.out.println("Not a prime");
+                        flag=1;
+                        break;
+                    }
+                }
+
+
             }
+            if(flag==0){
+                System.out.println("Prime Number "+n);
+            }
+            sc.close();
         }
+
     }
 

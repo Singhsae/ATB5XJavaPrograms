@@ -4,7 +4,7 @@ public class Lab0050 {
     public static void main(String[] args) {
         int a[]={1,2,3};
         int arr[][]=new int[3][3];
-        int arr2[][]=new int [3][3];
+        //int arr2[][]=new int [3][3];
         arr[0][0]=12;
         arr[0][1]=34;
         arr[0][2]=34;
