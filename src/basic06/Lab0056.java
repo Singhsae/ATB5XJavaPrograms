@@ -8,9 +8,9 @@ public class Lab0056 {
         System.out.println(name.contains("f"));
         System.out.println(name);
        // String name2 =new String("Singh");
-        String expexted_result ="pass@123";
+        String expected_result ="pass@123";
         String actual_result ="Pass@123";
-        if(expexted_result.equalsIgnoreCase(actual_result)){
+        if(expected_result.equalsIgnoreCase(actual_result)){
             System.out.println("Yes");
         }
 
